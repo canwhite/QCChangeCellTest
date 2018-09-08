@@ -1,0 +1,2 @@
+# QCChangeCellTest
+主要是为了让认识layoutSubviews、setNeedsLayout、layoutIfNeeded
