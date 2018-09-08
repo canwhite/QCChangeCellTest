@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90C8770EAE71306371E02A3D /* Pods_QCChangeCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C640302DFE792477DD0FF445 /* Pods_QCChangeCellDemo.framework */; };
+		F69576ED214354B800D1209A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69576EC214354B800D1209A /* AppDelegate.m */; };
+		F69576F3214354B800D1209A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69576F1214354B800D1209A /* Main.storyboard */; };
+		F69576F5214354B800D1209A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69576F4214354B800D1209A /* Assets.xcassets */; };
+		F69576F8214354B800D1209A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69576F6214354B800D1209A /* LaunchScreen.storyboard */; };
+		F69576FB214354B800D1209A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69576FA214354B800D1209A /* main.m */; };
+		F6F38B2F214367140028C7D1 /* QCChangeCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F38B2E214367140028C7D1 /* QCChangeCellCollectionViewCell.m */; };
+		F6F38B3221436F770028C7D1 /* QCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F38B3121436F770028C7D1 /* QCTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66BCA4F9527176DC3E97E244 /* Pods-QCChangeCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCChangeCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCChangeCellDemo/Pods-QCChangeCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C640302DFE792477DD0FF445 /* Pods_QCChangeCellDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCChangeCellDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69576E8214354B800D1209A /* QCChangeCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCChangeCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69576EB214354B800D1209A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69576EC214354B800D1209A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69576F2214354B800D1209A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69576F4214354B800D1209A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69576F7214354B800D1209A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69576F9214354B800D1209A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69576FA214354B800D1209A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F38B0521435F8C0028C7D1 /* QCChangeCellDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCChangeCellDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F6F38B0621435FD10028C7D1 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		F6F38B2D214367140028C7D1 /* QCChangeCellCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCChangeCellCollectionViewCell.h; sourceTree = "<group>"; };
+		F6F38B2E214367140028C7D1 /* QCChangeCellCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCChangeCellCollectionViewCell.m; sourceTree = "<group>"; };
+		F6F38B3021436F770028C7D1 /* QCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCTestViewController.h; sourceTree = "<group>"; };
+		F6F38B3121436F770028C7D1 /* QCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCTestViewController.m; sourceTree = "<group>"; };
+		FDBC96B7DE0545A5527BDF34 /* Pods-QCChangeCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCChangeCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCChangeCellDemo/Pods-QCChangeCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69576E5214354B800D1209A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C8770EAE71306371E02A3D /* Pods_QCChangeCellDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90BC3E9B77F0295D2968618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C640302DFE792477DD0FF445 /* Pods_QCChangeCellDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69576DF214354B800D1209A = {
+			isa = PBXGroup;
+			children = (
+				F69576EA214354B800D1209A /* QCChangeCellDemo */,
+				F69576E9214354B800D1209A /* Products */,
+				FC4EB40E320BE28D137C8794 /* Pods */,
+				A90BC3E9B77F0295D2968618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F69576E9214354B800D1209A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69576E8214354B800D1209A /* QCChangeCellDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69576EA214354B800D1209A /* QCChangeCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F69576EB214354B800D1209A /* AppDelegate.h */,
+				F69576EC214354B800D1209A /* AppDelegate.m */,
+				F6F38B3021436F770028C7D1 /* QCTestViewController.h */,
+				F6F38B3121436F770028C7D1 /* QCTestViewController.m */,
+				F6F38B2C214366EA0028C7D1 /* Model */,
+				F6F38B2B214366EA0028C7D1 /* View */,
+				F6F38B0621435FD10028C7D1 /* Define.h */,
+				F6F38B0521435F8C0028C7D1 /* QCChangeCellDemo-Prefix.pch */,
+				F69576F1214354B800D1209A /* Main.storyboard */,
+				F69576F4214354B800D1209A /* Assets.xcassets */,
+				F69576F6214354B800D1209A /* LaunchScreen.storyboard */,
+				F69576F9214354B800D1209A /* Info.plist */,
+				F69576FA214354B800D1209A /* main.m */,
+			);
+			path = QCChangeCellDemo;
+			sourceTree = "<group>";
+		};
+		F6F38B2B214366EA0028C7D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6F38B2D214367140028C7D1 /* QCChangeCellCollectionViewCell.h */,
+				F6F38B2E214367140028C7D1 /* QCChangeCellCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6F38B2C214366EA0028C7D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC4EB40E320BE28D137C8794 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDBC96B7DE0545A5527BDF34 /* Pods-QCChangeCellDemo.debug.xcconfig */,
+				66BCA4F9527176DC3E97E244 /* Pods-QCChangeCellDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69576E7214354B800D1209A /* QCChangeCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69576FE214354B800D1209A /* Build configuration list for PBXNativeTarget "QCChangeCellDemo" */;
+			buildPhases = (
+				27B80F985F704DFC58AC94AB /* [CP] Check Pods Manifest.lock */,
+				F69576E4214354B800D1209A /* Sources */,
+				F69576E5214354B800D1209A /* Frameworks */,
+				F69576E6214354B800D1209A /* Resources */,
+				418786CCBD16B53BC3B51C2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCChangeCellDemo;
+			productName = QCChangeCellDemo;
+			productReference = F69576E8214354B800D1209A /* QCChangeCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69576E0214354B800D1209A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = BYX;
+				TargetAttributes = {
+					F69576E7214354B800D1209A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F69576E3214354B800D1209A /* Build configuration list for PBXProject "QCChangeCellDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69576DF214354B800D1209A;
+			productRefGroup = F69576E9214354B800D1209A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69576E7214354B800D1209A /* QCChangeCellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69576E6214354B800D1209A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69576F8214354B800D1209A /* LaunchScreen.storyboard in Resources */,
+				F69576F5214354B800D1209A /* Assets.xcassets in Resources */,
+				F69576F3214354B800D1209A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B80F985F704DFC58AC94AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCChangeCellDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		418786CCBD16B53BC3B51C2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QCChangeCellDemo/Pods-QCChangeCellDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCChangeCellDemo/Pods-QCChangeCellDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69576E4214354B800D1209A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F38B3221436F770028C7D1 /* QCTestViewController.m in Sources */,
+				F6F38B2F214367140028C7D1 /* QCChangeCellCollectionViewCell.m in Sources */,
+				F69576FB214354B800D1209A /* main.m in Sources */,
+				F69576ED214354B800D1209A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F69576F1214354B800D1209A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69576F2214354B800D1209A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69576F6214354B800D1209A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69576F7214354B800D1209A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69576FC214354B800D1209A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69576FD214354B800D1209A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69576FF214354B800D1209A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBC96B7DE0545A5527BDF34 /* Pods-QCChangeCellDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYPTXJ9VBT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QCChangeCellDemo/QCChangeCellDemo-Prefix.pch";
+				INFOPLIST_FILE = QCChangeCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.QCChangeCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6957700214354B800D1209A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BCA4F9527176DC3E97E244 /* Pods-QCChangeCellDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYPTXJ9VBT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QCChangeCellDemo/QCChangeCellDemo-Prefix.pch";
+				INFOPLIST_FILE = QCChangeCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qc.QCChangeCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69576E3214354B800D1209A /* Build configuration list for PBXProject "QCChangeCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69576FC214354B800D1209A /* Debug */,
+				F69576FD214354B800D1209A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69576FE214354B800D1209A /* Build configuration list for PBXNativeTarget "QCChangeCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69576FF214354B800D1209A /* Debug */,
+				F6957700214354B800D1209A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69576E0214354B800D1209A /* Project object */;
+}

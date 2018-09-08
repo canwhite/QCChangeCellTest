@@ -1,0 +1,6 @@
+framework module Pods_QCChangeCellDemo {
+  umbrella header "Pods-QCChangeCellDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
